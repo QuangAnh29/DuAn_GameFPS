@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4290321935020658098}
   - component: {fileID: 4290321935020658100}
   - component: {fileID: 4290321935020658099}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MuzzleFlashEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4776,7 +4776,7 @@ GameObject:
   - component: {fileID: 4290321935129544692}
   - component: {fileID: 4290321935126153172}
   - component: {fileID: 4290321935127250196}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4862,7 +4862,7 @@ GameObject:
   - component: {fileID: 4290321936048361952}
   - component: {fileID: 4290321936048361981}
   - component: {fileID: 328662075422645395}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: M1911 Handgun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5016,7 +5016,7 @@ GameObject:
   - component: {fileID: 4290321935129544698}
   - component: {fileID: 4290321935126153178}
   - component: {fileID: 4290321935127250202}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5099,7 +5099,7 @@ GameObject:
   - component: {fileID: 4290321935129544700}
   - component: {fileID: 4290321935126153180}
   - component: {fileID: 4290321935127250204}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CasingExit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5182,7 +5182,7 @@ GameObject:
   - component: {fileID: 4290321935129544702}
   - component: {fileID: 4290321935126153182}
   - component: {fileID: 4290321935127250206}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hammer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5263,7 +5263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4290321936067170824}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 'WeaponSpawn '
   m_TagString: Untagged
   m_Icon: {fileID: 0}

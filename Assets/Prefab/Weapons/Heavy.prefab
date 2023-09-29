@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4215891370304922737}
   - component: {fileID: 4215891370304119889}
   - component: {fileID: 4215891370303153809}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: C_Sight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4215891370304922739}
   - component: {fileID: 4215891370304119891}
   - component: {fileID: 4215891370303153811}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: C_MainBattery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 5822761653915809604}
   - component: {fileID: 7644214440837979838}
   - component: {fileID: 6463628234667685639}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Heavy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 4215891370304922743}
   - component: {fileID: 4215891370304119895}
   - component: {fileID: 4215891370303153815}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: C_Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -364,7 +364,7 @@ GameObject:
   - component: {fileID: 4215891370304922745}
   - component: {fileID: 4215891370304119897}
   - component: {fileID: 4215891370303153817}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: C_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -447,7 +447,7 @@ GameObject:
   - component: {fileID: 4215891370304922747}
   - component: {fileID: 4215891370304119899}
   - component: {fileID: 4215891370303153819}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: C_BeamBattery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -530,7 +530,7 @@ GameObject:
   - component: {fileID: 4215891370304922749}
   - component: {fileID: 4215891370304119901}
   - component: {fileID: 4215891370303153821}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: C_Mag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -614,7 +614,7 @@ GameObject:
   - component: {fileID: 4215891370304119903}
   - component: {fileID: 4215891370303153823}
   - component: {fileID: 8141158522823130821}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: C_Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
