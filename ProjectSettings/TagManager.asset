@@ -9,6 +9,7 @@ TagManager:
   - Beer
   - Waypoints
   - Zombie
+  - ZombieHand
   layers:
   - Default
   - TransparentFX
