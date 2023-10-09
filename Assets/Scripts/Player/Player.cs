@@ -13,7 +13,8 @@ public class Player : MonoBehaviour
 
         if (playerHP <= 0)
         {
-            Debug.Log("You Die");
+            PlayerManager.isGameOver = true;
+            gameObject.SetActive(false);
         }
         else
         {
