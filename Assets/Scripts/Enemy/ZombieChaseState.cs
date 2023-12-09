@@ -25,6 +25,12 @@ public class ZombieChaseState : StateMachineBehaviour
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        if (AudioManager.instance.zombieChannel.isPlaying == false)
+        {
+            AudioManager.instance.zombieChannel.clip = AudioManager.instance.Zombie_Chase;
+            AudioManager.instance.zombieChannel.PlayDelayed(1f);
+        }
+
         agent.SetDestination(player.position);
         animator.transform.LookAt(player);
 

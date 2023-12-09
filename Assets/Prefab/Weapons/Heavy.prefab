@@ -229,7 +229,7 @@ MonoBehaviour:
   spreadIntensity: 0.1
   bulletPrefab: {fileID: 8782165019608161511, guid: f2c2e892efaef8e4aafd81c0e3ae09b0, type: 3}
   bulletSpawn: {fileID: 0}
-  bulletVelocity: 700
+  bulletVelocity: 20
   bulletPrefabLifeTime: 3
   muzzleEffect: {fileID: 0}
   reloadTime: 2

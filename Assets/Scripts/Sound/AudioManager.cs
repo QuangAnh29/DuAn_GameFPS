@@ -13,8 +13,18 @@ public class AudioManager : MonoBehaviour
 	public AudioClip M1911;
 	public AudioClip Heavy;
 
-	void Start()
+
+
+	public AudioSource zombieChannel;
+	public AudioClip Zombie_Attack;
+	public AudioClip Zombie_Chase;
+
+
+
+    void Start()
 	{
+
+
 		if (instance != null)
 		{
 			Destroy(gameObject);

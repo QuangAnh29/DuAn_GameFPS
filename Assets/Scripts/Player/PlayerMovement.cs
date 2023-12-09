@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 move;
 
     public float gravity = -10f;
-    public float jumpForce = 8;
+    public float jumpForce = 5;
     private Vector3 velocity;
 
     public Transform groundCheck;

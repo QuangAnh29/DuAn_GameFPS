@@ -4982,7 +4982,7 @@ MonoBehaviour:
   spreadIntensity: 0.05
   bulletPrefab: {fileID: 6629627892661909339, guid: c13585bf5ba56a844a9aa282d274f776, type: 3}
   bulletSpawn: {fileID: 4290321936067170824}
-  bulletVelocity: 500
+  bulletVelocity: 20
   bulletPrefabLifeTime: 3
   muzzleEffect: {fileID: 4290321935020658097}
   reloadTime: 1.5

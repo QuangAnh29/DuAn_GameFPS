@@ -16,6 +16,8 @@ public class ZombiePatrolingState : StateMachineBehaviour
     List<Transform> waypointsList = new List<Transform>();
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+
+        
         // -- Initialization -- //
         player = GameObject.FindGameObjectWithTag("Player").transform;
         agent = animator.GetComponent<NavMeshAgent>();

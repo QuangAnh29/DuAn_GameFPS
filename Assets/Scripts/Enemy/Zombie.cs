@@ -6,7 +6,9 @@ public class Zombie : MonoBehaviour
 {
     [SerializeField] private int HP = 100;
     private Animator animator;
-    private bool isDead = false;
+
+    public bool isDead = false;
+
 
     private UnityEngine.AI.NavMeshAgent navAgent;
 
@@ -22,10 +24,10 @@ public class Zombie : MonoBehaviour
     {
         HP -= damageAmount;
 
-        if (isDead)
+        /*if (isDead)
         {
             return;
-        }
+        }*/
         if (HP <= 0)
         {
             isDead = true;
@@ -41,12 +43,14 @@ public class Zombie : MonoBehaviour
                 animator.SetTrigger("Die2");
             }
 
-            StartCoroutine(DisappearAfterDelay());
+           StartCoroutine(DisappearAfterDelay());
+            AudioManager.instance.Play("Zombie_Death");
 
         }
         else
         {
             animator.SetTrigger("Damage");
+            AudioManager.instance.Play("Zombie_Hurt");
         }
     }
 

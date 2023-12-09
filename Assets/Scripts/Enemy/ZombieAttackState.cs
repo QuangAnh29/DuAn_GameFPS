@@ -18,6 +18,17 @@ public class ZombieAttackState : StateMachineBehaviour
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+
+        if(AudioManager.instance.zombieChannel.isPlaying == false)
+        {
+            AudioManager.instance.zombieChannel.clip = AudioManager.instance.Zombie_Attack;
+            AudioManager.instance.zombieChannel.PlayDelayed(1f);
+        }
+        if(Player.playerHP <= 0)
+        {
+            AudioManager.instance.zombieChannel.Stop();
+        }
+
         LookAtPlayer();
 
         //Checking if the agent should stop attacking

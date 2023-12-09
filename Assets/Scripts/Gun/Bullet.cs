@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -32,12 +33,29 @@ public class Bullet : MonoBehaviour
 
         if (objectWeHit.gameObject.CompareTag("Zombie"))
         {
-            objectWeHit.gameObject.GetComponent<Zombie>().TakeDamage(bulletDamage);
+            if (objectWeHit.gameObject.GetComponent<Zombie>().isDead == false)
+            {
+                objectWeHit.gameObject.GetComponent<Zombie>().TakeDamage(bulletDamage);
+                CreateBloodSprayEffect(objectWeHit);
+            }
+
+            
             Destroy(gameObject);
 
         }
     }
 
+    private void CreateBloodSprayEffect(Collision objectWeHit)
+    {
+        ContactPoint contact = objectWeHit.contacts[0];
+        GameObject bloodSprayPrefab = Instantiate(
+            GobalReferences.Instance.bloodSprayEffect,
+            contact.point,
+            Quaternion.LookRotation(contact.normal)
+            );
+
+        bloodSprayPrefab.transform.SetParent(objectWeHit.gameObject.transform);
+    }
 
     void CreateBulletImpactEffect(Collision objectWeHit)
     {

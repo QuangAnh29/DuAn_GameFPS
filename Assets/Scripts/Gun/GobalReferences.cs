@@ -7,6 +7,7 @@ public class GobalReferences : MonoBehaviour
     public static GobalReferences Instance { get; set; }
 
     public GameObject bulletImpactEffectPrefab;
+    public GameObject bloodSprayEffect;
 
     private void Awake()
     {
